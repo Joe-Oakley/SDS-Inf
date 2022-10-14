@@ -1,11 +1,6 @@
 import json
 import boto3
 from io import BytesIO
-from boto3.dynamodb.conditions import Key
-
-# Anon test: Hakan
-# Ferhatosmanoglu
-
 ########## CONSTANTS ##########
 SPARSE_DNN_WORKER = "" # Replace with ARN of sds-inf-queue-worker Lambda function once deployed.
 ########## CLIENTS ##########
