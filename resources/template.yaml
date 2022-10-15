@@ -15,7 +15,7 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: batch_worker/
-      Role: arn:aws:iam::570608630185:role/sparse-dnn-worker-iam-role
+      Role: arn:aws:iam::XXXXXXXXXXXX:role/sparse-dnn-worker-iam-role
       Handler: sparse_dnn_batch_worker.lambda_handler
       Runtime: python3.8
       Events:
